@@ -1,0 +1,30 @@
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/bin/Debug/net7.0/TetrisTest.exe
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/bin/Debug/net7.0/TetrisTest.deps.json
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/bin/Debug/net7.0/TetrisTest.runtimeconfig.json
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/bin/Debug/net7.0/TetrisTest.dll
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/bin/Debug/net7.0/TetrisTest.pdb
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.csproj.AssemblyReference.cache
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.AssemblyInfoInputs.cache
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.AssemblyInfo.cs
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.csproj.CoreCompileInputs.cache
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.dll
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/refint/TetrisTest.dll
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.pdb
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/TetrisTest.genruntimeconfig.cache
+C:/Users/BERGA/OneDrive - FUJITSU/Desktop/Tetris/obj/Debug/net7.0/ref/TetrisTest.dll
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.csproj.AssemblyReference.cache
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.AssemblyInfoInputs.cache
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.AssemblyInfo.cs
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.csproj.CoreCompileInputs.cache
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.dll
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/refint/TetrisTest.dll
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.pdb
+/Users/Gustav/Downloads/Tetris-2/bin/Debug/net7.0/TetrisTest
+/Users/Gustav/Downloads/Tetris-2/bin/Debug/net7.0/TetrisTest.deps.json
+/Users/Gustav/Downloads/Tetris-2/bin/Debug/net7.0/TetrisTest.runtimeconfig.json
+/Users/Gustav/Downloads/Tetris-2/bin/Debug/net7.0/TetrisTest.dll
+/Users/Gustav/Downloads/Tetris-2/bin/Debug/net7.0/TetrisTest.pdb
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/TetrisTest.genruntimeconfig.cache
+/Users/Gustav/Downloads/Tetris-2/obj/Debug/net7.0/ref/TetrisTest.dll
