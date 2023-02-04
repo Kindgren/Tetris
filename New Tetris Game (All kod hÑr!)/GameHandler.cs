@@ -87,7 +87,7 @@ public class GameHandler
     {
 
         this.CurrentFigure = TetrisFigures[random.Next(0, 6)];
-        this.CurrentFigureRow = -3;
+        this.CurrentFigureRow = -2;
         this.CurrentFigureCol = 5;
     }
 
