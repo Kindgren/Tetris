@@ -8,6 +8,6 @@ public class DotDrawer
     }
     public void DrawDot(ConsoleColor c, int x, int y)
     {
-        map[(x, y)] = ('■', c);
+        map[(x, y)] = ('☒', c);
     }
 }

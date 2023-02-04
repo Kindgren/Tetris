@@ -26,6 +26,7 @@ public class Game
     public void UpdateGame()
     {
 
+        bool drop=false;
 
         this.gameHandler.CurrentFigureRow++;
 
@@ -54,7 +55,7 @@ public class Game
               else if (Kb.SKeyDown)
         {
 
-            this.gameHandler.CurrentFigureRow+=2;
+                drop = true;
         }
 
         else if (Kb.DKeyDown)
@@ -84,8 +85,30 @@ public class Game
             }
 
         }
-                this.printHandler.DrawAll(this.gameHandler);
+                
+
+
+                
+    if(drop){
+     while(!this.gameHandler.Collision(this.gameHandler.CurrentFigure))
+     {
+        this.gameHandler.CurrentFigureRow++;
+       
+       
+
+     }  
+
+     this.gameHandler.AddCurrentFigureToTetrisField();
+     int lines = this.gameHandler.CheckForFullLines();
+     this.gameHandler.NewRandomFigure();
+     drop = false;
+        
+    }
+
+        this.printHandler.DrawAll(this.gameHandler);
+    
 
     }
+
 }
 

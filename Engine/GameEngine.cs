@@ -45,6 +45,9 @@ public class GameEngine
         for (int j = 0; j < 14; j++)
         {
             Console.Write("         ║");
+            if(j==2)
+            {Console.Write("────────────");}
+            else{
             for (int i = 0; i < 12; i++)
             {
                 if (map.ContainsKey((i, j)))
@@ -54,6 +57,7 @@ public class GameEngine
                 }
                 else
                     Console.Write(" ");
+            }
             }
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.Write("║");
