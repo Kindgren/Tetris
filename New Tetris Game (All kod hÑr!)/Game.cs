@@ -23,7 +23,7 @@ public class Game
 
     }
 
-    public void UpdateGame()
+    public void UpdateGame(ref int score)
     {
 
         bool drop=false;
@@ -72,8 +72,8 @@ public class Game
         if (this.gameHandler.Collision(this.gameHandler.CurrentFigure))
         {
             this.gameHandler.AddCurrentFigureToTetrisField();
-            int lines = this.gameHandler.CheckForFullLines();
-
+            score+= this.gameHandler.CheckForFullLines()*5;
+            score++;
             this.gameHandler.NewRandomFigure();
 
             if (this.gameHandler.Collision(this.gameHandler.CurrentFigure))
@@ -93,22 +93,25 @@ public class Game
      while(!this.gameHandler.Collision(this.gameHandler.CurrentFigure))
      {
         this.gameHandler.CurrentFigureRow++;
+
        
        
 
      }  
 
      this.gameHandler.AddCurrentFigureToTetrisField();
-     int lines = this.gameHandler.CheckForFullLines();
+     score+= this.gameHandler.CheckForFullLines()*5;
      this.gameHandler.NewRandomFigure();
      drop = false;
+     score++;
         
     }
 
         this.printHandler.DrawAll(this.gameHandler);
-    
+   
 
     }
+    
 
 }
 

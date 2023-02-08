@@ -5,6 +5,8 @@ public class GameEngine
     private WASDInput input;
     private Game game;
     private System.Timers.Timer aTimer;
+
+    public int score;
     public GameEngine(int width = 40, int height = 20, int interval = 400)
     {
         Console.TreatControlCAsInput = true;
@@ -14,9 +16,11 @@ public class GameEngine
         shapeRender = new DotDrawer(ref map);
         input = new WASDInput();
         game = new Game(input, shapeRender);
+        score = 0;
+        
 
         aTimer = new System.Timers.Timer();
-        aTimer.Elapsed += delegate { RunGame(game, map, input); };
+        aTimer.Elapsed += delegate { RunGame(game, ref score, map, input); };
         aTimer.Interval = interval;
     }
     public void Run()
@@ -24,7 +28,7 @@ public class GameEngine
         aTimer.Enabled = true;
     }
 
-    private static void RunGame(Game game, Dictionary<(int, int), (char, ConsoleColor)> map, WASDInput kb)
+    private static void RunGame(Game game, ref int score, Dictionary<(int, int), (char, ConsoleColor)> map, WASDInput kb)
     {
         if (!kb.AnyKeyDown && Console.KeyAvailable)
         {
@@ -38,7 +42,7 @@ public class GameEngine
             if (key == 'd' || key == 'D')
                 kb.DKeyDown = true;
         }
-        game.UpdateGame();
+        game.UpdateGame(ref score);
         Console.Clear();
         Console.WriteLine();
         Console.WriteLine();
@@ -46,7 +50,7 @@ public class GameEngine
         {
             Console.Write("         ║");
             if(j==2)
-            {Console.Write("────────────");}
+            {Console.Write("────────────║ score : " + score);}
             else{
             for (int i = 0; i < 12; i++)
             {
@@ -60,6 +64,7 @@ public class GameEngine
             }
             }
             Console.ForegroundColor = ConsoleColor.Gray;
+            if (j!=2)
             Console.Write("║");
             Console.WriteLine();
         }
